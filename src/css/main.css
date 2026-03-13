@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'PorcheFont';
-    src: url('/src/fonts/911\ Porscha.ttf') format('truetype'); /* ou woff2 */
+    src: url('../fonts/911\ Porscha.ttf') format('truetype'); /* ou woff2 */
     font-weight: normal;
     font-style: normal;
 }
