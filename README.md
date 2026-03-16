@@ -1,5 +1,5 @@
 <div align="center">
-  
+  <img width="487" height="97" alt="porche" src="https://github.com/user-attachments/assets/0037fa5f-cd22-4ac7-a114-a031eac0b6bc" />
 </div>
 
 ---
@@ -18,9 +18,7 @@ Moving beyond a standard institutional site, the primary focus here was masterin
 * **UI/UX Design:** A heavy focus on custom typography (Porsche Font) and color contrasts that align with the brand's luxury identity.
 
 <div align="center">
-  
-<img width="1920" height="1080" alt="starbuksgit2" src="https://github.com/user-attachments/assets/23a90120-d1fb-4862-ac47-fd1ff6085f2a" />
-
+<img width="1920" height="1080" alt="Porsche" src="https://github.com/user-attachments/assets/64bcc886-3865-446d-9222-3f6e858d0c7d" />
 </div>
 ---
 
