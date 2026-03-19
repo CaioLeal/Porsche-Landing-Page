@@ -224,3 +224,109 @@ main{
     font-size: 20px;
     border: 1px solid #fff;
 }
+
+@media screen and (max-width: 768px) {
+    
+    /* Ajustando o título gigante (Cayenne/911/etc) */
+    .big {
+        font-size: 80px; /* Reduzido de 280px */
+        line-height: 1;
+        text-align: center;
+        padding-bottom: 0;
+        top: -100px; /* Sobe um pouco para dar espaço ao carro */
+    }
+
+    .small {
+        font-size: 30px;
+        top: -150px;
+        left: 50%;
+        transform: translateX(-50%); /* Centraliza o nome Porsche */
+    }
+
+    .content {
+        flex-direction: column; /* Empilha os elementos */
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    /* Ajustando a imagem do carro */
+    .content .image {
+        width: 140%;
+        height: 140%;
+        margin-top: 100;
+        z-index: 5;
+    }
+
+    /* Ajustando o fundo dividido (cores) */
+    .yellow, .blue, .red {
+        width: 100%; /* Ocupa a largura toda no mobile */
+        height: 100%; /* Fica na parte de cima */
+    }
+
+    .black {
+        width: 100%;
+        height: 60%;
+        top: 40%;
+        right: 0;
+    }
+
+    /* Ajustando as especificações (Specs) */
+    .specs {
+        position: relative;
+        left: 0;
+        bottom: 200px;
+        flex-direction: column; /* Coloca um embaixo do outro */
+        gap: 15px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .specs span {
+        margin-left: 0; /* Remove a margem lateral do desktop */
+        font-size: 14px;
+    }
+
+    .specs button {
+        margin-left: 0;
+        width: 80%; /* Botão maior para facilitar o toque */
+    }
+
+    /* Redes Sociais e Barra Lateral */
+    .social {
+        left: 15px;
+        bottom: 15px;
+        gap: 10px;
+    }
+
+    .social .bar {
+        height: 100px; /* Diminui a linha branca lateral */
+        margin-bottom: 20px;
+    }
+
+    /* Menu e Logo */
+    .logo {
+        left: 20px;
+        top: 15px;
+    }
+    
+    .logo img {
+        height: 50px !important; /* Diminui o logo da Porsche */
+    }
+
+    .menu {
+        right: 20px;
+        top: 15px;
+    }
+
+    /* Paginação (números na lateral) */
+    .swiper-pagination {
+        right: 10px !important;
+        height: 150px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
